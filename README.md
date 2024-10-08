@@ -9,3 +9,12 @@
 
 ## Передача параметра
 Передача параметра между двумя activity реализована с помощью Intent. На первой activity создается Intent с параметром, который передается во вторую activity.
+```java
+// Первая activity
+public class MainActivity extends AppCompatActivity {
+    public void onClickButton(View view) {
+        Intent intent = new Intent(this, SecondActivity.class);
+        intent.putExtra("parameter", "Значение параметра");
+        startActivity(intent);
+    }
+}
