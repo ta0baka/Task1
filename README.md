@@ -8,7 +8,7 @@
 3. На второй activity будет отображен переданный параметр в виде текста.
 
 
-![image](https://github.com/user-attachments/assets/92b11613-753c-4403-be3c-d601d635fb03)
+![image](https://github.com/user-attachments/assets/92b11613-753c-4403-be3c-d601d635fb03){:width="400" height="300"}
 
 
 
