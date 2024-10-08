@@ -9,6 +9,9 @@
 
 <img src="https://github.com/user-attachments/assets/92b11613-753c-4403-be3c-d601d635fb03" width="250" height="500" alt="Скриншот приложения" style="display: block; margin: 0 auto;">
 
+
+<img src="https://github.com/user-attachments/assets/92b11613-753c-4403-be3c-d601d635fb03" width="250" height="500" alt="Скриншот приложения" style="display: block; margin: 0 auto;">
+
 ## Передача параметра
 Передача параметра между двумя activity реализована с помощью Intent. На первой activity создается Intent с параметром, который передается во вторую activity.
 ```java
