@@ -14,7 +14,7 @@
 public void onClick(View v) {
      Intent intent = new Intent(MainActivity.this, MainActivity2.class);
      intent.putExtra("surname", "Новикова");
-        startActivity(intent);
+     startActivity(intent);
 }
 
 // Вторая activity
