@@ -18,3 +18,18 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 }
+
+// Вторая activity
+public class SecondActivity extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_second);
+
+        Intent intent = getIntent();
+        String parameter = intent.getStringExtra("parameter");
+
+        TextView textView = findViewById(R.id.textView);
+        textView.setText(parameter);
+    }
+}
