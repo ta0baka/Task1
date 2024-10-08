@@ -18,16 +18,10 @@ public void onClick(View v) {
 }
 
 // Вторая activity
-public class SecondActivity extends AppCompatActivity {
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
+protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second);
-
-        Intent intent = getIntent();
-        String parameter = intent.getStringExtra("Новикова");
-
+        setContentView(R.layout.activity_main2);
+        String surname = getIntent().getStringExtra("surname");
         TextView textView = findViewById(R.id.textView);
-        textView.setText(parameter);
+        textView.setText(surname);
     }
-}
