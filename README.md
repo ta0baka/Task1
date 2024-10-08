@@ -8,8 +8,6 @@
 3. На второй activity будет отображен переданный параметр в виде текста.
 На втором скриншоте отображается второй activity с переданным параметром.
 
-![Скриншот приложения](https://github.com/user-attachments/assets/92b11613-753c-4403-be3c-d601d635fb03){: width="250" height="500" style="display: block; margin: 0 auto;"}
-
 <img src="https://github.com/user-attachments/assets/92b11613-753c-4403-be3c-d601d635fb03" width="250" height="500" alt="Скриншот приложения" style="display: block; margin: 0 auto;">
 
 
