@@ -1,7 +1,7 @@
 # Лабораторная работа №1. Создание activity и передача параметров между ними
 Код приложения написан на языке Java и использует Android SDK.
 ## Описание приложения
-В этом приложении реализована передача параметра между двумя activity. На первой activity есть кнопка, при нажатии на которую на вторую activity передается параметр и открывается вторая activity, на которой текстом отображен переданный параметр.
+В этом приложении реализована передача параметра между двумя activity в Android. Параметр передается с помощью Intent и отображается на второй activity в виде текста.
 ## Использование приложения
 1. Запустите приложение.
 2. На первой activity нажмите на кнопку "Передать параметр".
@@ -27,7 +27,7 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
 
         Intent intent = getIntent();
-        String parameter = intent.getStringExtra("parameter");
+        String parameter = intent.getStringExtra("Новикова");
 
         TextView textView = findViewById(R.id.textView);
         textView.setText(parameter);
