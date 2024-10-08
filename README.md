@@ -7,7 +7,7 @@
 2. На первой activity нажмите на кнопку "Передать параметр".
 3. На второй activity будет отображен переданный параметр в виде текста.
 
-<img src="https://github.com/user-attachments/assets/92b11613-753c-4403-be3c-d601d635fb03" width="250" height="500" alt="Скриншот приложения">
+<img src="https://github.com/user-attachments/assets/92b11613-753c-4403-be3c-d601d635fb03" width="250" height="500" alt="Скриншот приложения" style="display: block; margin: 0 auto;">
 
 ## Передача параметра
 Передача параметра между двумя activity реализована с помощью Intent. На первой activity создается Intent с параметром, который передается во вторую activity.
