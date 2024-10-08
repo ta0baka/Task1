@@ -10,7 +10,7 @@
 
 ![image](https://github.com/user-attachments/assets/92b11613-753c-4403-be3c-d601d635fb03){: width="400" height="300"}
 
-<img src="https://github.com/user-attachments/assets/92b11613-753c-4403-be3c-d601d635fb03" width="400" height="700" alt="Скриншот приложения">
+<img src="https://github.com/user-attachments/assets/92b11613-753c-4403-be3c-d601d635fb03" width="350" height="500" alt="Скриншот приложения">
 
 ## Передача параметра
 Передача параметра между двумя activity реализована с помощью Intent. На первой activity создается Intent с параметром, который передается во вторую activity.
